@@ -3,7 +3,7 @@ import { GradientText } from '@/components/gradient-text'
 
 export default function Home() {
   return (
-    <main className="h-screen snap-y snap-mandatory overflow-y-auto">
+    <main>
       <div className="flex min-h-screen snap-start snap-always flex-col items-center justify-center overflow-hidden p-24">
         <header
           className={cn(
